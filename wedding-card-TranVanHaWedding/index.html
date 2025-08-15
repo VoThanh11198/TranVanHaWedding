@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thiệp Cưới Online</title>
+  <meta name="description" content="Thiệp cưới online với hiệu ứng đẹp, nhạc nền và QR bản đồ">
+  <base href="/TranVanHaWedding/">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="cover">
+      <img id="coverImage" alt="Ảnh bìa" src="assets/cover.jpg">
+      <div class="hearts"></div>
+    </div>
+    <h1 id="names"></h1>
+    <p id="dateLocation"></p>
+    <p id="message"></p>
+    <div id="qrMapContainer">
+      <h3>Bản đồ</h3>
+      <img id="qrMap" alt="QR Map">
+    </div>
+    <button id="playMusic">Phát nhạc</button>
+    <button onclick="confettiEffect()">🎉</button>
+  </div>
+  <audio id="bgMusic" loop src="assets/music.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
