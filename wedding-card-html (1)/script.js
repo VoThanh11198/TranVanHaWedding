@@ -1,11 +1,11 @@
 // Load config
-fetch('./assets/config.json')
+fetch('https://github.com/VoThanh11198/TranVanHaWedding/tree/922589e95b0ff38b9a704a05097f546a37ad7e76/wedding-card-html%20(1)/assets/config.json')
   .then(res => res.json())
   .then(data => {
     document.getElementById('names').textContent = data.names;
     document.getElementById('dateLocation').textContent = data.date + ' • ' + data.location;
     document.getElementById('message').textContent = data.message;
-    document.getElementById('bgMusic').src = './assets/music.mp3';
+    document.getElementById('bgMusic').src = 'https://github.com/VoThanh11198/TranVanHaWedding/tree/922589e95b0ff38b9a704a05097f546a37ad7e76/wedding-card-html%20(1)/assets/music.mp3';
   });
 
 // Hearts animation
